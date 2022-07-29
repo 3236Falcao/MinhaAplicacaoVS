@@ -15,7 +15,11 @@ namespace MinhaAplicacaoVS.Controllers
 
         public IActionResult Index()
         {
-            return View();
+            UsuarioAdm usuarioAdm = new UsuarioAdm();
+            usuarioAdm.NomeUsuarioAdm = "Daniel Falcão";
+            usuarioAdm.EmailUsuarioAdm = "danieleducadorg@gmail.com";
+
+            return View(usuarioAdm);
         }
 
         public IActionResult Privacy()
