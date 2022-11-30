@@ -16,8 +16,8 @@ namespace MinhaAplicacaoVS.Controllers
         public IActionResult Index()
         {
             UsuarioAdm usuarioAdm = new UsuarioAdm();
-            usuarioAdm.NomeUsuarioAdm = "Daniel Falcão";
-            usuarioAdm.EmailUsuarioAdm = "danieleducadorg@gmail.com";
+            usuarioAdm.NomeUsuarioAdm = "Jhonatam Renner";
+            usuarioAdm.EmailUsuarioAdm = "renner.jhonatam@sec.rn.com";
 
             return View(usuarioAdm);
         }
